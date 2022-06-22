@@ -43,10 +43,10 @@ public class Pad : MonoBehaviour
     }
 
     void movement2(){
-         if(Input.GetKey(KeyCode.J)){
+         if(Input.GetKey(KeyCode.K)){
             transform.position += transform.right * Time.deltaTime * speed;
         }
-        if(Input.GetKey(KeyCode.K)){
+        if(Input.GetKey(KeyCode.J)){
             transform.position -= transform.right * Time.deltaTime * speed;
         }
     }

@@ -24,10 +24,10 @@ public class Core : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        P1Score.text = P1Goal.score_Acc.ToString();
-        P2Score.text = P2Goal.score_Acc.ToString();
-        P3Score.text = P3Goal.score_Acc.ToString();
-        P4Score.text = P4Goal.score_Acc.ToString();
+        P1Score.text ="P1: \n" + P1Goal.score_Acc.ToString();
+        P2Score.text ="P2: \n" +  P2Goal.score_Acc.ToString();
+        P3Score.text ="P3: \n" +  P3Goal.score_Acc.ToString();
+        P4Score.text ="P4: \n" +  P4Goal.score_Acc.ToString();
         ValidateWinner();
     }
 
