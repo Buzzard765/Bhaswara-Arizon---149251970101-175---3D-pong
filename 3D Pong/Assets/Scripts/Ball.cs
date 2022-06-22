@@ -47,8 +47,9 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) {
         if(other.gameObject.name.Contains("Pad") ||
-        other.gameObject.name.Contains("Wall")){
-            rb.velocity *= 2f;
+        other.gameObject.name.Contains("Wall") ||
+         other.gameObject.name.Contains("Goal")){
+            rb.velocity *= 2;
         }
 
         if(other.gameObject.CompareTag("OB")){

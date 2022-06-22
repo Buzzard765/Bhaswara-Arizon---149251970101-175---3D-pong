@@ -5,6 +5,7 @@ using UnityEngine;
 public class Goal : MonoBehaviour
 {
     [SerializeField]private Pad PlayerPad;
+    MeshRenderer Wall;
     private int Score = 0;
     public int score_Acc{
         get{return Score;}
@@ -13,14 +14,16 @@ public class Goal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Wall = GetComponent<MeshRenderer>();
+        Wall.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         if(Score>=15){
-            Destroy(PlayerPad.gameObject);
+           PlayerPad.gameObject.SetActive(false);
+            Wall.enabled = true;
         }
     }
 
