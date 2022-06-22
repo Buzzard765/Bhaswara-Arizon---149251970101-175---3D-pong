@@ -180,9 +180,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nPemain 1(Merah): tombol  W & S untuk gerakkan Pad\nPemain 2(Biru): tombol 
-    J & K untuk gerakkan Pad\nPemain 3(Hijau): tombol  8 & 2 untuk gerakkan Pad\nPemain
-    1(Kuning): Panah Kiri & Kanan untuk gerakkan Pad\n\njadilah orang terakhir yang
+  m_text: "\nPemain 1(Merah): tombol  A & D untuk gerakkan Pad\nPemain 2(Biru): tombol 
+    I & K untuk gerakkan Pad\nPemain 3(Hijau): tombol  4 & 6 untuk gerakkan Pad\nPemain
+    1(Kuning): Panah Atas & Bawah untuk gerakkan Pad\n\njadilah orang terakhir yang
     survive \r\n\r\nKalahkan musuh dengan cara membobolkan 15 bola ke gawangnya"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -34,37 +34,37 @@ public class Pad : MonoBehaviour
     }
 
     void movement1(){
-        if(Input.GetKey(KeyCode.W)){
+        if(Input.GetKey(KeyCode.A)){
             transform.position += transform.forward * Time.deltaTime * speed;
         }
-        if(Input.GetKey(KeyCode.S)){
+        if(Input.GetKey(KeyCode.D)){
             transform.position -= transform.forward * Time.deltaTime * speed;
         }
     }
 
     void movement2(){
-         if(Input.GetKey(KeyCode.K)){
+         if(Input.GetKey(KeyCode.I)){
             transform.position += transform.right * Time.deltaTime * speed;
         }
-        if(Input.GetKey(KeyCode.J)){
+        if(Input.GetKey(KeyCode.K)){
             transform.position -= transform.right * Time.deltaTime * speed;
         }
     }
 
     void movement3(){
-        if(Input.GetKey(KeyCode.Keypad8)){
+        if(Input.GetKey(KeyCode.Keypad4)){
             transform.position += transform.forward * Time.deltaTime * speed;
         }
-        if(Input.GetKey(KeyCode.Keypad2)){
+        if(Input.GetKey(KeyCode.Keypad6)){
             transform.position -= transform.forward * Time.deltaTime * speed;
         }
         
     }
     void movement4(){
-        if(Input.GetKey(KeyCode.RightArrow)){
+        if(Input.GetKey(KeyCode.UpArrow)){
             transform.position += transform.right * Time.deltaTime * speed;
         }
-        if(Input.GetKey(KeyCode.LeftArrow)){
+        if(Input.GetKey(KeyCode.DownArrow)){
             transform.position -= transform.right * Time.deltaTime * speed;
         }
     }
